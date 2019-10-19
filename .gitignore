@@ -1,0 +1,5 @@
+node_modules
+MosaicAPI.njsproj
+MosaicAPI.sln
+obj
+.env

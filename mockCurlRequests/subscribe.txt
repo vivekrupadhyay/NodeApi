@@ -1,0 +1,5 @@
+curl -X POST \
+  http://localhost:8080/user/subscribe \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'cache-control: no-cache' \
+  -d subscriptionEmail=test%40example.com

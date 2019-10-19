@@ -1,0 +1,23 @@
+{
+  "name": "mosaicapi",
+  "version": "1.0.0",
+  "description": "API For Mosaic",
+  "main": "index.js",
+  "scripts": {
+    "start": "cp env .env && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-mailjet": "^3.3.1",
+    "passport": "^0.4.0",
+    "sequelize": "^5.8.6",
+    "tedious": "^6.1.1"
+  }
+}
